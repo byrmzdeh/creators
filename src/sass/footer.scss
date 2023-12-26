@@ -1,0 +1,136 @@
+.footer {
+    width: 100%;
+    height: 90vh;
+    background-image:
+        linear-gradient(3506deg, rgba(28, 28, 28, 0.9), rgba(20, 20, 20, 0.99)),
+        url('https://shtheme.com/demosd/upcreatorswp/wp-content/themes/upcreators/assets/img/gradients/10.png');
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+
+    .footer-one {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-bottom: 150px;
+
+
+        h2 {
+            font-size: 31px;
+        }
+
+        .star-img {
+            animation: spin 3s linear infinite;
+
+            @keyframes spin {
+                0% {
+                    transform: rotate(0deg);
+                }
+
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+        }
+
+
+        h1 {
+            font-size: 80px;
+            font-family: sans-serif;
+            font-weight: 900;
+            color: black;
+            -webkit-text-stroke: 2px rgb(243, 241, 241)
+        }
+
+        p {
+            font-size: 24px;
+        }
+
+        .input-button {
+            display: flex;
+            gap: 10px;
+
+            input {
+                width: 370px;
+                height: 50px;
+                padding: 14px;
+                font-size: 18px;
+                border: none;
+                outline: none;
+
+            }
+
+            button {
+                width: 210px;
+                height: 50px;
+                font-size: 17px;
+                cursor: pointer;
+                background-color: #f1b84b;
+                color: black;
+                border: none;
+                font-weight: bold;
+
+                &:hover {
+                    background-color: black;
+                    border: 1px solid white;
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .footer-two{
+        display: flex;
+        flex-direction: column;
+        gap: 34px;
+        h2{
+            font-size: 29px;
+            font-family: sans-serif;
+            font-weight: 900;
+        }
+        .icons{
+            display: flex;
+            gap: 25px;
+           
+            i{
+                color: #f1b84b;
+                font-size: 25px;
+            }
+        }
+    }
+    .footer-three{
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        h2{
+            font-size: 29px;
+            font-family: sans-serif;
+            font-weight: 900;
+        }
+        p{
+            font-size: 23px;
+        }
+    }
+
+    .footer-four{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        h2{
+            font-size: 29px;
+            font-family: sans-serif;
+            font-weight: 900;
+        }
+        p{
+            font-size: 23px;
+            a{
+                color: white;
+            }
+        }
+    }
+
+
+
+}
